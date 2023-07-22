@@ -1,0 +1,41 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 130px;
+    gap: 20px;
+
+    background: #E2EDE4;
+}
+
+.nav img{
+    width: 95px;
+    height: 38px;
+}
+
+.nav input{
+    flex-grow: 1;
+    border-radius: 5px;
+    background: #FFF;
+    padding: 5px 10px;
+}
+
+.nav input::placeholder{
+    color: #868889;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.btn_login{
+    
+    color: #418C51;
+    border: 2px solid var(--dark-gray-20, rgba(144, 154, 168, 0.20));
+}
+
+.btn_cart{
+    color: var(--light-white, #FFF);
+    background: #525252;
+}
